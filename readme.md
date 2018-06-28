@@ -43,11 +43,11 @@ node hackerrank.js challenges/solve-me-first --file
 #### Examples:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/itho/hackerrank/master/docs/screenshots/failure.png" height="200" style="padding: 15px;">
+  <img src="https://raw.githubusercontent.com/itho/hackerrank.js/master/docs/screenshots/failure.png" style="padding: 15px;">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/itho/hackerrank/master/docs/screenshots/success.png" height="200" style="padding: 15px;">
+  <img src="https://raw.githubusercontent.com/itho/hackerrank.js/master/docs/screenshots/success.png" style="padding: 15px;">
 </p>
 
 #### License
