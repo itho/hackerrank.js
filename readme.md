@@ -2,7 +2,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png" height="200" style="padding: 15px;">
 </p>
 
-# HackerRank.js
+# hackerrank.js
 ### A JavaScript framework for running HackerRank challenges on your local machine.
 
 #### Requirements:
@@ -13,7 +13,7 @@
 
 ``` bash
 # Clone/fork the repository
-git clone --depth 1 https://github.com/itho/hackerrank.git
+git clone --depth 1 https://github.com/itho/hackerrank.js.git
 
 # Change directory
 cd hackerrank
@@ -52,4 +52,4 @@ node hackerrank.js challenges/solve-me-first --file
 
 #### License
 
-itho/hackerrank is [MIT licensed](https://github.com/itho/hackerrank/blob/master/license).
+itho/hackerrank is [MIT licensed](https://github.com/itho/hackerrank.js/blob/master/license).
