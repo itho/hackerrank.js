@@ -1,0 +1,19 @@
+{
+  "name": "hackerrank.js",
+  "version": "1.0.0",
+  "description": "A JavaScript framework for running HackerRank challenges on your local machine.",
+  "main": "test.js",
+  "scripts": {
+    "hackerrank": "node hackerrank.js"
+  },
+  "keywords": [
+    "javascript",
+    "hackerrank"
+  ],
+  "author": "Ieuan Thomas",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ora": "^2.1.0"
+  }
+}
