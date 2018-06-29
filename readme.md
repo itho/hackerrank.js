@@ -38,7 +38,7 @@ node hackerrank.js challenges/solve-me-first --stdout
 node hackerrank.js challenges/solve-me-first --file
 ```
 
-4. You can also add additinoal/custom testcases. Just ensure that the input and output filenames match.
+4. You can also add additional/custom testcases. Just ensure that the input and output filenames match.
 
 #### Examples:
 
