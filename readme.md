@@ -26,7 +26,7 @@ npm install
 
 1. On all HackerRank challenges, you can see a link on the right side bar "Download sample test cases".
 Clicking this will start the download of the available input &amp; output files.
-2. Save this to the 'challenges' subdirectory and create a file named 'solution.js'. Copy in the stub from HackerRank and get hacking!
+2. Create a folder for the challenge like `/challenges/solve-me-first/`. Move the downloaded `input` and `output` folders here along with your solution named `solution.js`. Copy in the stub from HackerRank and get hacking!
 3. Run the commands below from the root of the project.
 
 ``` bash
