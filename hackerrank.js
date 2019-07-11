@@ -43,7 +43,7 @@ function main () {
     resultsPath = false;
   } else {
     console.log(term.FgRed, "You must specify the output format of your code.");
-    console.log(term.FgRed, "Usage: node " + process.argv[1] + " challenges/CHALLENGE-NAME [--console|--file|--stdout]");
+    console.log(term.FgRed, "Usage: node " + process.argv[1] + " challenges/CHALLENGE-NAME [--console|--file|--stdout]", term.Reset);
     process.exit(1);
   }
   
@@ -92,7 +92,7 @@ function main () {
         }
         console.log(term.FgRed, " Failed (" + failures.length + "):", failures.join(", "));
       }
-      console.log();
+      console.log(term.Reset);
     });
 }
 
@@ -101,7 +101,7 @@ function checkArgs () {
   if (process.argv.length < 3) {
     console.log(
       term.FgRed,
-      "Usage: node " + process.argv[1] + " challenges/CHALLENGE-NAME [--console|--file|--stdout]"
+      "Usage: node " + process.argv[1] + " challenges/CHALLENGE-NAME [--console|--file|--stdout]" , term.Reset
     );
     process.exit(1);
   }
@@ -113,7 +113,7 @@ function checkArgs () {
     )
     console.log(
       term.FgRed,
-      "Usage: node " + process.argv[1] + " challenges/CHALLENGE-NAME [--console|--file|--stdout]"
+      "Usage: node " + process.argv[1] + " challenges/CHALLENGE-NAME [--console|--file|--stdout]", term.Reset
     );
     process.exit(1);
   }
@@ -132,7 +132,7 @@ function compareIO(inputFileNames, outputFileNames) {
   if (!match) {
     console.log(
       term.FgRed,
-      "Error: number of inputs does not match number of outputs."
+      "Error: number of inputs does not match number of outputs.", term.Reset
     );
     process.exit(1);
   }
@@ -191,7 +191,7 @@ function runTestcase (testcase) {
       } else {
         spinner.fail();
         console.log(term.FgRed, " - Expected Output:", testcase.output.replace("\n", ""));
-        console.log(term.FgRed, " - Your Output:    ", outcome.replace("\n", ""), term.Reset);
+        console.log(term.FgRed, " - Your Output:    ", outcome.replace("\n", ""));
         resolve(false);
       }
     });
