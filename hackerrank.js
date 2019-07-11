@@ -83,7 +83,7 @@ function main () {
     .then(result => {
       console.log();
       if (result.every(r => r === true)) {
-        console.log(term.FgGreen, " Success! (" + inputFileNames.length + ")");
+        console.log(term.FgGreen, " Success! (" + inputFileNames.length + ")" , term.Reset);
       } else {
         let failures = [];
         for (let i = 0; i < inputFileNames.length; i++) {
@@ -191,7 +191,7 @@ function runTestcase (testcase) {
       } else {
         spinner.fail();
         console.log(term.FgRed, " - Expected Output:", testcase.output.replace("\n", ""));
-        console.log(term.FgRed, " - Your Output:    ", outcome.replace("\n", ""));
+        console.log(term.FgRed, " - Your Output:    ", outcome.replace("\n", ""), term.Reset);
         resolve(false);
       }
     });
